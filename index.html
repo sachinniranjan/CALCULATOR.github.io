@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>calculator</title>
+</head>
+<link rel="stylesheet" type="text/css" href="calcy.css">
+<link rel="stylesheet" type="text/js" href="index.js">
+<body>
+	<div class="container">
+		<div class="calculator">
+
+	<tr>
+		<td>
+			
+	<br>
+<h1>CALCULATOR</h1>
+
+
+</td>
+</tr>
+<tr>
+	<td>
+<input type="text" placeholder="0" name="screen" id="iii"  >
+<br>
+</td>
+</tr>
+<tr>
+	<td>
+<button onclick="display('1')">1</button>
+<button onclick="display('2')">2</button>
+<button onclick="display('3')">3</button>
+<button onclick="display('+')">+</button>
+<br>
+</td>
+</tr>
+<tr>
+	<td>
+<button onclick="display('4')">4</button>
+<button onclick="display('5')">5</button>
+<button onclick="display('6')">6</button>
+<button onclick="display('-')">-</button>
+<br>
+</td>
+</tr>
+<tr>
+	<td>
+<button onclick="display('7')">7</button>
+<button onclick="display('8')">8</button>
+<button onclick="display('9')">9</button>
+<button onclick="display('0')">0</button>
+<br>
+</td>
+</tr>
+<tr>
+	<td>
+<button onclick="display('*')">x</button>
+<button onclick="display('/')">/</button>
+<button onclick="Equal()">=</button>
+<button onclick="clearScreen()">clear</button>
+</td>
+</tr>
+</table>
+</div>
+<script src="index.js" ></script>
+</body>
+<script type="text/javascript">
+	let outputScreen = document.getElementById('iii')
+	function display(num) {
+		outputScreen.value +=num;
+	}
+	function Equal() {
+
+
+
+
+	try{
+		outputScreen.value =eval(outputScreen.value);
+    }
+    catch(err)
+    {
+    	alert("invalid")
+    }
+    }
+    function theme(){
+    	document.getElementByclass("calculator").style.background="blue";
+    }
+
+   
+    	
+         
+     function clearScreen(){
+     
+      document.getElementById("iii").value = ""; 
+    }
+</script>
+
+
+</html>
