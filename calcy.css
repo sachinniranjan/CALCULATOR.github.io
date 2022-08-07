@@ -26,7 +26,7 @@ button:hover{
 input{
 	    font-size: 40px;
 	    width: 276px;
-    background-color: whitesmoke;
+    background-color: darkslategray;
     border-radius: 23px;
     margin-bottom: 13px;
     color: ;
@@ -34,7 +34,7 @@ input{
 .calculator{
     border: 12px solid #421212;
     display: inline-block;
-    background-color: green;
+    background-color: darkslategray;
     padding: 15px;
     border-radius: -11px;
     margin-top: 75px;
@@ -55,4 +55,53 @@ button.theme{
 	height: 24px;
 	width: 26px;
 	box-shadow: -1px -2px 13px red;
+}
+#one{
+	background-color: lightpink;
+}
+#two{
+	background-color: lightpink;
+}
+#three{
+	background-color: lightpink;
+}
+#plus{
+	background-color: lightskyblue;
+}
+
+#four{
+	background-color: lightpink;
+}
+#five{
+	background-color: lightpink;
+}
+#six{
+	background-color: lightpink;
+}
+#dash{
+	background-color: lightskyblue;
+}
+#seven{
+	background-color: lightpink;
+}
+#eight{
+	background-color: lightpink;
+}
+#nine{
+	background-color: lightpink;
+}
+#zero{
+	background-color: lightskyblue;
+}
+#multiple{
+	background-color: lightskyblue;
+}
+#forward{
+	background-color: lightskyblue;
+}
+#equal{
+	background-color: lightskyblue;
+}
+#clear{
+	background-color: lightskyblue;
 }
